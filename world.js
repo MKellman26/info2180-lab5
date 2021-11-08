@@ -2,7 +2,7 @@
 "use strict";
 
 window.onload = function(){
-    var lookup_button = document.getElementsById("lookup")[0];
+    var lookup_button = document.getElementById("lookup");
 
     lookup_button.addEventListener("click", function(e){
 
