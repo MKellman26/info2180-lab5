@@ -28,7 +28,7 @@ h1{
 main{
     display: flex;
     flex-direction: column;
-    background-color: #E9EFF5;
+    background-color: #F1FFFD;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -75,4 +75,25 @@ label {
     width: 100px;
 }
 
-#results{}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    column-width: auto;
+}
+
+tr:nth-child(odd){
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+}
+
+th, td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+td{
+    text-align: left;
+    border: 1px solid #dddddd;
+}
