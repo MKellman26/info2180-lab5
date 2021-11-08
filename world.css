@@ -37,7 +37,7 @@ main{
 #controls{
     display: flex;
     flex-direction: row;
-    inline-size: 500px;
+    inline-size: 400px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ label {
     font-size: 1rem;
 }
 
-#lookup{
+#lookupCountries{
     color: white;
     background-color: #3BF4B6;
     border: 1px solid #3BF4B6;
@@ -72,13 +72,30 @@ label {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 5px;
-    width: 100px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+#lookupCities{
+    color: white;
+    background-color: #38D3F2;
+    border: 1px solid #38D3F2;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+    width: 150px;
 }
 
 table{
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    column-width: auto;
+    width: 750px;
 }
 
 tr:nth-child(odd){
@@ -86,11 +103,18 @@ tr:nth-child(odd){
     border: 1px solid #dddddd;
 }
 
-th, td{
+.cntr{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 50px;
+    width: 25%;
+}
+
+.city{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 33%;
 }
 
 td{
